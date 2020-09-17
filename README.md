@@ -1,7 +1,7 @@
 # SomeExtensions
 Some simple functional extensions for C#
 
-Inspired by talks given by Simon Painter and Kathleen Dollard. 
+Inspired by lectures given by Simon Painter and Kathleen Dollard. 
 
 You can find the lectures on YT:
 
