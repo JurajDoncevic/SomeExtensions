@@ -6,7 +6,7 @@ using Xunit;
 
 namespace SomeExtensions.Functional.Tests
 {
-    public class BlocksOverProviderTest
+    public class BlocksOverProviderTests
     {
         [Fact]
         public void TestTryCatchOnThrow()

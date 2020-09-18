@@ -8,7 +8,7 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace SomeExtensions.Functional.Tests
 {
-    public class BlocksOverServiceTest
+    public class BlocksOverServiceTests
     {
         [Fact]
         public void TestTryCatchOnThrow()
