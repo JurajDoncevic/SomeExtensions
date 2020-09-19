@@ -1,5 +1,5 @@
 # SomeExtensions
-Some simple functional extensions for C#
+Some simple functional extensions for C#. I built a [FP web app](https://github.com/JurajDoncevic/FPWebApp) using them
 
 Inspired by lectures given by Simon Painter and Kathleen Dollard. 
 
