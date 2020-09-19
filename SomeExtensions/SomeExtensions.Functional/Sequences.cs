@@ -1,5 +1,8 @@
-﻿using System;
+﻿using SomeExtensions.Functional.Results;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
 using System.Text;
 
 namespace SomeExtensions.Functional
@@ -14,5 +17,10 @@ namespace SomeExtensions.Functional
 
         public static TResult DoThen<TInput, TResult>(this Func<TInput> doFirst, Func<TInput, TResult> then) =>
             then.Invoke(doFirst.Invoke());
+
+        public static TResult WhenAllTrueDoElse<TResult>(Func<TResult> doFunc, Func<TResult> elseFunc, params Func<bool>[] predicates) =>
+            predicates.All(_ => _.Invoke())
+            ? doFunc.Invoke()
+            : elseFunc.Invoke();
     }
 }

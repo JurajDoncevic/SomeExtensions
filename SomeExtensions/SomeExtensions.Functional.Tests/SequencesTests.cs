@@ -24,5 +24,25 @@ namespace SomeExtensions.Functional.Tests
                             .DoThen<bool>(() => true)
                 );
         }
+
+        [Fact]
+        public void WhenAllTrueDoTrueTest()
+        {
+            Assert.NotNull(Sequences.WhenAllTrueDoElse(() => "this is a string",
+                                                       () => null,
+                                                       () => true,
+                                                       () => 1 < 2,
+                                                       () => 1 == 1));
+        }
+
+        [Fact]
+        public void WhenAllTrueDoFalseTest()
+        {
+            Assert.Null(Sequences.WhenAllTrueDoElse(() => "this is a string",
+                                                    () => null,
+                                                    () => true,
+                                                    () => false,
+                                                    () => 1 == 1));
+        }
     }
 }
