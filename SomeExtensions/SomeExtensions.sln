@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeExtensions.Functional", "SomeExtensions.Functional\SomeExtensions.Functional.csproj", "{7C3D56E7-9057-4DB7-BDD2-1579608A8569}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SomeExtensions.Functional", "SomeExtensions.Functional\SomeExtensions.Functional.csproj", "{7C3D56E7-9057-4DB7-BDD2-1579608A8569}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeExtensions.Functional.Tests", "SomeExtensions.Functional.Tests\SomeExtensions.Functional.Tests.csproj", "{AEB07A0C-EFF9-47F0-BCC4-F8D3DEC5C51E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SomeExtensions.Functional.Tests", "SomeExtensions.Functional.Tests\SomeExtensions.Functional.Tests.csproj", "{AEB07A0C-EFF9-47F0-BCC4-F8D3DEC5C51E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeExtensions.Functional.Web", "SomeExtensions.Functional.Web\SomeExtensions.Functional.Web.csproj", "{190020BB-3940-4DB9-B3EE-928ECC214603}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AEB07A0C-EFF9-47F0-BCC4-F8D3DEC5C51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEB07A0C-EFF9-47F0-BCC4-F8D3DEC5C51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEB07A0C-EFF9-47F0-BCC4-F8D3DEC5C51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190020BB-3940-4DB9-B3EE-928ECC214603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190020BB-3940-4DB9-B3EE-928ECC214603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190020BB-3940-4DB9-B3EE-928ECC214603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190020BB-3940-4DB9-B3EE-928ECC214603}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
